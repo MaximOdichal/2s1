@@ -133,14 +133,6 @@ function lab12()
     
 }
 
-function odd(num){
-    if (num % 2 == 0) return num
-}
-
-function sum(total, num){
-    return total + Math.sqrt(num)
-}
-
 function lab13()
 {
     console.log('Задание 13')
