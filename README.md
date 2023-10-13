@@ -214,7 +214,7 @@ function lab21()
     for(let i = 0; i < years; i++)
     {
         perepl += S * (p / 100)
-        S = S * (p/1 + 1)
+        S = S * (p + 1)
     }
     
     console.log(perepl)
