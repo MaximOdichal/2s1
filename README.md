@@ -128,7 +128,7 @@ function lab11()
 function lab12()
 {
     console.log('Задание 12')
-    console.log([1, 2, 4, 5, 9, 10].filter(num=> {if(num % 2 == 0) return num}).reduce((total, num)=> total + Math.sqrt(num), 0))
+    console.log([1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter(num=> {if(num % 2 == 0) return num}).reduce((total, num)=> total + Math.sqrt(num), 0))
     console.log("---------------------------------\n")
     
 }
